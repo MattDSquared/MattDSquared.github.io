@@ -5,9 +5,15 @@ date: "September 2, 2015"
 output: html_document
 ---
 
-Hello and welcome to my GitHub pages! Please pardon the rough edges as I adventure into various classes and Kaggle.com competitions. This page will be filled out more as time goes on. In the meantime feel free to check out a few of my past data science projects!
+Hello and welcome to my GitHub pages! Please pardon the rough edges as I adventure into various classes and Kaggle.com competitions. This page will be filled out more as time goes on. In the meantime feel free to check out a few of my past data science projects.
 
-## Activity Quality Classification
+Looking for my GitHub repo? Take a look here: https://github.com/MattDSquared
+
+A list of a several project reports is on rpubs: http://rpubs.com/MattDSquared
+
+Don't worry, I'll get my html in line soon and this page won't look so boring.
+
+### Activity Quality Classification
 
 **Knitr Report**: http://rpubs.com/MattDSquared/ActivityQaulityClassification (Aug 19, 2015)
 
@@ -24,7 +30,7 @@ After cleaning data, trained models using random forest, generalized linear regr
 Validated Final model achieved an accuracy of 99.69% on testing data set.
 
 
-## Gas Mileage: Is Automatic or Manual Transmission Better?
+### Gas Mileage: Is Automatic or Manual Transmission Better?
 
 **Knitr Report**: http://rpubs.com/MattDSquared/TransmissionAndMPG (Jul 25, 2015)
 
@@ -40,7 +46,7 @@ Developed an optimal linear regression modelling using ANOVA, trading accuracy a
 
 Determined that, after adjusting for car weight and engine displacement, a manual transmission may decrease MPG by 1.2, but with a p-value of 0.336, this result is not statistically significant.
 
-## Bike Rental Demand Prediction from Weather
+### Bike Rental Demand Prediction from Weather
 
 **Knitr Report**: http://rpubs.com/MattDSquared/bike-sharing-demand (May 25, 2015)
 
