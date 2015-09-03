@@ -1,0 +1,57 @@
+---
+title: "Data Science Portfolio"
+author: "MattDSquared"
+date: "September 2, 2015"
+output: html_document
+---
+
+Hello and welcome to my GitHub pages! Please pardon the rough edges as I adventure into various classes and Kaggle.com competitions. This page will be filled out more as time goes on. In the meantime feel free to check out a few of my past data science projects!
+
+## Activity Quality Classification
+
+**Knitr Report**: http://rpubs.com/MattDSquared/ActivityQaulityClassification (Aug 19, 2015)
+
+*Objective*
+
+Develop a supervised learning algorithm to classify common weight lifting mistakes made during barbell lifts using 130 features derived from accelerometer data of hips and arms. 
+
+*Approach*
+
+After cleaning data, trained models using random forest, generalized linear regression, and PCA. Cross validated data to estimate out-of-sample error, determining random forest algorithm to have the highest accuracy. 
+
+*Result*
+
+Validated Final model achieved an accuracy of 99.69% on testing data set.
+
+
+## Gas Mileage: Is Automatic or Manual Transmission Better?
+
+**Knitr Report**: http://rpubs.com/MattDSquared/TransmissionAndMPG (Jul 25, 2015)
+
+*Objective*
+
+Using the classical mtcars data set, quantify the difference in MPG of a car having an automatic or manual transmission. 
+
+*Approach*
+
+Developed an optimal linear regression modelling using ANOVA, trading accuracy and variance inflation using a p-value cutoff of .05. 
+
+*Result*
+
+Determined that, after adjusting for car weight and engine displacement, a manual transmission may decrease MPG by 1.2, but with a p-value of 0.336, this result is not statistically significant.
+
+## Bike Rental Demand Prediction from Weather
+
+**Knitr Report**: http://rpubs.com/MattDSquared/bike-sharing-demand (May 25, 2015)
+
+*Objective*
+
+Predict the hourly rental demand for a bike sharing program based on time and weather (temperature, humidity, wind) data. Participate in first Kaggle.com competition to establish benchmark before taking any formal regression or machine learning classes.
+
+*Approach*
+
+Performed exploratory data analysis using R and ggplot2 package to discover patterns the demand drivers. Used PCA to understand feature variance and determine redundant features. Implemented Random Forest to capture nonlinearities in both time and temperature data.
+
+*Result*
+
+Loved discovering how much of human behavior can be understood and predicted from rudimentary time and weather data. Even though joined the competition a few days before the end date, I better than halved the benchmark producing an RMSLE of 0.68885.
